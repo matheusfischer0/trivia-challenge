@@ -82,10 +82,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   answerBox: {
-    marginTop: 15,
+    margin: 20,
     flexDirection: "row",
   },
   answer: {
+    borderRadius: 10,
     justifyContent: "center",
     flex: 1,
   },
@@ -96,9 +97,11 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   true: {
+    marginLeft: 5,
     backgroundColor: "#9fff9f",
   },
   false: {
+    marginRight: 5,
     backgroundColor: "#ff9f9f",
   },
   questionNumber: {
